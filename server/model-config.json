@@ -31,5 +31,17 @@
   "Role": {
     "dataSource": "db",
     "public": false
+  },
+  "Service": {
+    "dataSource": "pgmyApp",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
+  },
+  "Project": {
+    "dataSource": "pgmyApp",
+    "public": true,
+    "$promise": {},
+    "$resolved": true
   }
 }

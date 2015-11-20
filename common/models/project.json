@@ -1,0 +1,22 @@
+{
+  "name": "Project",
+  "base": "",
+  "strict": false,
+  "idInjection": false,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "description": {
+      "type": "string"
+    },
+    "name": {
+      "type": "string",
+      "id": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

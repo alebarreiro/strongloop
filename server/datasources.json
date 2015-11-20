@@ -2,5 +2,15 @@
   "db": {
     "name": "db",
     "connector": "memory"
+  },
+  "pgmyApp": {
+    "host": "localhost",
+    "port": 5432,
+    "url": "postgresql://Bix:alebix@localhost:5432/myapp",
+    "database": "myapp",
+    "password": "alebix",
+    "name": "pgmyApp",
+    "connector": "postgresql",
+    "user": "Bix"
   }
 }
