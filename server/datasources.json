@@ -4,9 +4,9 @@
     "connector": "memory"
   },
   "pgmyApp": {
-    "host": "localhost",
+    "host": "192.168.99.100",
     "port": 5432,
-    "url": "postgresql://Bix:alebix@localhost:5432/myapp",
+    "url": "postgresql://postgres:alebix@192.168.99.100:5432/myapp",
     "database": "myapp",
     "password": "alebix",
     "name": "pgmyApp",

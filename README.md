@@ -37,11 +37,29 @@ $ slc arc
 ```
   And login
 
-####6. Install docker and PostgreSQL
+####6. Install PostgreSQL
+####6.1 Custom install
 
-- https://www.docker.com/docker-toolbox
+
 - pgAdmin http://www.pgadmin.org/download/
 - PostgreSQL 9.4.5 http://www.postgresql.org/download/
+
+
+####6.2 Install in Docker
+- https://www.docker.com/docker-toolbox
+```sh
+$ docker pull postgres:latest
+or
+https://github.com/docker-library/docs/tree/master/postgres
+
+$ docker run -p 5432:5432 postgres
+
+Add server to pgAdmin
+
+
+```
+
+-
 
 ####7. Install Strongloop Postgres connector
 
